@@ -1,0 +1,10 @@
+n_folds: 5
+optimize_hyperparams: true
+cv_folds: 5
+models:
+  - random_forest
+  - xgboost
+  - lightgbm
+  - catboost
+  - ridge
+  - elastic_net

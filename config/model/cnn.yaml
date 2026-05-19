@@ -1,0 +1,5 @@
+backbone: "efficientnet_v2_s"
+pretrained: true
+dropout: 0.3
+embedding_dim: 128
+freeze_bn: true

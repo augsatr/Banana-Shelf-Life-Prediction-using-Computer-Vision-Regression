@@ -1,0 +1,46 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="banana-shelf-life",
+    version="2.0.0",
+    description="AI-powered banana freshness prediction with uncertainty quantification",
+    long_description=open("README.md").read() if __import__("os").path.exists("README.md") else "",
+    long_description_content_type="text/markdown",
+    author="Your Name",
+    packages=find_packages(),
+    include_package_data=True,
+    python_requires=">=3.10",
+    install_requires=[
+        "numpy>=1.21.0",
+        "opencv-python>=4.5.0",
+        "scikit-learn>=1.0.0",
+        "scikit-image>=0.19.0",
+        "matplotlib>=3.4.0",
+        "torch>=1.10.0",
+        "torchvision>=0.11.0",
+        "xgboost>=1.5.0",
+        "lightgbm>=3.3.0",
+        "fastapi>=0.78.0",
+        "uvicorn>=0.17.0",
+        "python-multipart>=0.0.5",
+        "tqdm>=4.62.0",
+        "joblib>=1.1.0",
+        "pyyaml>=6.0",
+        "albumentations>=1.4.0",
+        "pillow>=9.0.0",
+        "scipy>=1.7.0",
+    ],
+    extras_require={
+        "optimize": ["optuna>=3.0.0"],
+        "vit": ["transformers>=4.30.0"],
+        "gpu": ["torch>=2.0.0", "torchvision>=0.15.0"],
+        "all": ["optuna>=3.0.0", "transformers>=4.30.0", "mlflow>=2.0.0"],
+    },
+    entry_points={
+        "console_scripts": [
+            "banana-train=scripts.train:main",
+            "banana-predict=scripts.predict:main",
+            "banana-evaluate=scripts.evaluate:main",
+        ],
+    },
+)

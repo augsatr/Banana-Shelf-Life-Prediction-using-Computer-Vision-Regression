@@ -1,0 +1,58 @@
+data:
+  img_size: [224, 224]
+  batch_size: 32
+  synthetic_samples: 2000
+  val_split: 0.12
+  test_split: 0.12
+  num_workers: 0
+
+training:
+  epochs: 60
+  learning_rate: 3e-4
+  weight_decay: 1e-4
+  warmup_epochs: 3
+  label_smoothing: 0.05
+  grad_clip_norm: 1.0
+  early_stop_patience: 12
+  swa_start: 40
+  mixed_precision: true
+
+augmentation:
+  mixup_alpha: 0.2
+  cutmix_alpha: 1.0
+  randaug_magnitude: 12
+  randaug_num_ops: 3
+
+models:
+  cnn:
+    backbone: "efficientnet_v2_s"
+    pretrained: true
+    dropout: 0.3
+    embedding_dim: 128
+
+  vit:
+    model_name: "google/vit-base-patch16-224-in21k"
+    dropout: 0.2
+    freeze_backbone: false
+    embedding_dim: 128
+
+  ensemble:
+    n_folds: 5
+    optimize_hyperparams: true
+    cv_folds: 5
+
+  uncertainty:
+    mc_samples: 50
+    dropout_rate: 0.15
+
+logging:
+  use_mlflow: false
+  experiment_name: "banana_shelf_life"
+  log_every: 10
+  save_best_metric: "val_mae"
+
+paths:
+  raw_data: "data/raw"
+  processed_data: "data/processed"
+  models_dir: "models/saved"
+  logs_dir: "logs"
