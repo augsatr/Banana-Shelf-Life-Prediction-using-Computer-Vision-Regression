@@ -257,4 +257,30 @@ Experiment Tracking │ (Extensible: MLflow/W&B)
 
 ---
 
-andddd me sohan
+## Motto / Vision Section for Banana Project
+Option 1
+
+“Reducing food waste through AI-powered freshness prediction.”
+
+Option 2
+
+“Using Computer Vision to predict banana decay before it happens.”
+
+Option 3
+
+“Smart agriculture meets AI for better food sustainability.”
+
+Option 4
+
+“Predict today. Prevent waste tomorrow.”
+
+Option 5
+
+“An intelligent system that estimates banana shelf life using Computer Vision and Regression models.”
+
+Best Professional One
+
+“AI-driven banana freshness prediction system designed to reduce food waste and improve quality monitoring.”
+
+For GitHub README:
+and its me sohan
