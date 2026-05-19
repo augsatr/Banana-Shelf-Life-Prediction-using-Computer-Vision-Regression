@@ -60,7 +60,12 @@ An end-to-end **Computer Vision + Machine Learning** system that predicts banana
 | **2 - Spotted** | ![Spotted] | Yellow with brown speckles | 1–2 days |
 | **3 - Brown** | ![Brown] | Dark brown, soft, bruised | <1 day |
 
-*[Replace with actual prediction images from the system]*
+<img width="3262" height="1826" alt="Image" src="https://github.com/user-attachments/assets/477f4445-a18a-474b-815b-78c2b2590588" />
+
+<img width="685" height="421" alt="Image" src="https://github.com/user-attachments/assets/35ace905-66f8-4e72-b453-aaa4a892b8b2" />
+
+<img width="974" height="664" alt="Image" src="https://github.com/user-attachments/assets/60504ab7-52d7-44d9-a9e3-cf649e20e45c" />
+
 
 ---
 
@@ -252,38 +257,4 @@ Experiment Tracking │ (Extensible: MLflow/W&B)
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License
-
-Copyright (c) 2026 augsatr
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
----
-
-<div align="center">
-  <sub>Built with ❤️ using Computer Vision & Machine Learning</sub>
-  <br>
-  <sub>© 2026 augsatr</sub>
-</div>
+andddd me sohan
